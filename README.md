@@ -71,5 +71,10 @@ About CSR format, I personally recommand reading this [pdf](https://www.bu.edu/p
 Same with above
 
 ## TEST 
+Testing time with 1000 iterations of **1024*11985 matrix** 
 
-TODO
+|   BLAS     | common | sparse |
+| ---------- | ---    | ---
+| OpenBlas   | 3719.309 ms | /   |
+| MKL        | 3002.197 ms | 227.752 |
+| Atlas      |  TODO |  TODO   |
